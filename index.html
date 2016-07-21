@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+ 	<head>
+  		<title>task 4</title>
+  		<meta charset="utf-8">
+
+
+  		<script src="js/angular.min.js"></script>
+    	<script src="js/angular-animate.js"></script>
+    	<script src="js/ui-bootstrap-tpls-1.1.2.min.js"> </script>
+    	<script src="js/task4.js"></script>
+    	<link rel="stylesheet" href="css/bootstrap.css" />
+
+
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.css" />
+  		
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		
+		<script src="js/jquery-1.12.0.js"></script>
+		<script src="js/bootstrap.js"></script>
+		  
+  		
+  		
+  		
+      
+ 	</head>
+ 	<body >
+ 		
+ 	
+	<div class="container-fluid" id="maincontainer" >
+		<header id="header">
+	 		<nav class="navbar navbar-inverse" id="headernavbar">
+	  			<div class="container-fluid">
+	    			<div class="navbar-header">
+	    				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+	    					<span class="icon-bar"></span>
+	    					<span class="icon-bar"></span>
+	    					<span class="icon-bar"></span>
+	    				</button>
+	      				<a class="navbar-brand" href="#" style="color:white;"><i class="fa fa-commenting" style="color:white"></i> Magazine</a>
+	    			</div>
+
+	    			<div class="collapse navbar-collapse" id="mainNavBar">
+		    			<ul class="nav navbar-nav navbar-right">
+		    				<li><i class="fa fa-home " style="color:white;font-size:18px;padding-top:100%;"></i></li>
+		     				<li class="active" ><a href="#" style="color:white;">Home</a></li>
+		      				<li><a href="#" style="color:white;">About</a></li>
+		      				<li><a href="#" style="color:white;">Page template</a></li> 
+		      				<li><a href="#" style="color:white;">short codes</a></li> 
+		      				<li><a href="#" style="color:white;">Blog</a></li> 
+		      				<li><a href="#" style="color:white;">shop Page</a></li> 
+		      				<li><a href="#" style="color:white;">Contact</a></li> 
+		    			</ul>
+	    			<div>
+	    		</div>
+			</nav>
+		</header> <!-- navbar -->
+
+		<section class="container-fluid" style="padding:0 0">
+			<div class="welllike">
+					<div class="row" style="padding-top:10px;">
+						<div class="col-xs-6 col-md-3" >
+							<section class="panel">
+								<article class="panel-body">
+									<figure><img src="images/bg.jpg" alt="img and desc" class="img-rounded" width="50" height="50" style="float:left;margin-right:5px;"/>
+									<figcaption> something for the pic  </figcaption></figure>
+								</article>	
+							</section>											
+						</div>
+
+						<div class="col-xs-6 col-md-3 " >
+							<section class="panel">
+								<article class="panel-body">
+									<figure><img src="images/bg.jpg" alt="img and desc" class="img-rounded" width="50" height="50" style="float:left;margin-right:5px;"/>
+									<figcaption> something for the pic  </figcaption></figure>
+								</article>	
+							</section>	
+						</div>
+
+						<div class=" col-xs-6 col-md-3 " >
+							<section class="panel">
+								<article class="panel-body">
+									<figure><img src="images/bg.jpg" alt="img and desc" class="img-rounded" width="50" height="50" style="float:left;margin-right:5px;"/>
+									<figcaption> something for the pic  </figcaption></figure>
+								</article>	
+							</section>	
+						</div>
+
+						<div class="col-xs-6 col-md-3 " >
+							<section class="panel">
+								<article class="panel-body">
+									<figure><img src="images/bg.jpg" alt="img and desc" class="img-rounded" width="50" height="50" style="float:left;margin-right:5px;"/>
+									<figcaption> something for the pic  </figcaption></figure>
+								</article>	
+							</section>	
+						</div>
+				</div>
+		</section> <!-- Upper-container- img and description -->
+
+		
+		<section class="well" style="padding-bottom:40px;">
+
+				<div class="col-md-8"><marquee>this is a breaking news </marquee>  
+				</div>
+				<div class="col-md-3 col-xs-11 " >
+					<div class="form-group ">
+  						<input type="text" class="form-control input-sm" id="search"  placeholder="search here.."> 
+					</div> 
+				</div>
+				<div class="col-xs-1 pull-right" style="padding-left:10px;">
+					<span class="glyphicon glyphicon-search" aria-hidden="true" style="padding-top:5px;"></span>
+				</div>
+		</section>
+
+		
+		
+		<section class="col-xs-12 col-md-8 " style="padding-top:20px;" >
+				<div class="col-xs-12 col-md-8" style="padding-right:15px">
+					<section class="panel">
+						<div class="panel-body">
+							<section id='carousel-custom' class='carousel slide' data-ride='carousel' style="margin-top: 0px;">
+					    		<div class='carousel-outer'>
+					       		 	<div class='carousel-inner'>
+							            <article class='item active'>
+							                <img src='images/1c.jpg' alt='' class="img-responsive" style="height: 100%; width: 100%;object-fit: contain"/>
+							                <div class="carousel-caption">
+		    									<h3 class="imgcaptionheading">this is the heading for this image</h3>
+		    									<p class="imgcaptiondetail">this is the defualt image carousel caption, that i am trying to implement</p>
+							            	</div>
+							            </article>					                
+							            <article class='item'>
+							                <img src='images/2c.jpg' alt='' class="img-responsive"  style="height: 100%; width: 100%;object-fit: contain"/>
+							                <div class="carousel-caption">
+		    									<h3 class="imgcaptionheading">this is the heading for this image</h3>
+		    									<p class="imgcaptiondetail">this is the defualt image carousel caption, that i am trying to implement</p>
+							            	</div>					                
+							            </article>
+							            <article class='item'>
+							                <img src='images/3.jpeg' alt='' class="img-responsive"  style="height: 100%; width: 100%;object-fit: contain"/>
+							                <div class="carousel-caption">
+		    									<h3 class="imgcaptionheading">this is the heading for this image</h3>
+		    									<p class="imgcaptiondetail">this is the defualt image carousel caption, that i am trying to implement</p>
+							            	</div>					                
+							            </article>	
+							            <article class='item'>
+							                <img src='images/4.jpg' alt='' class="img-responsive"  style="height: 100%; width: 100%;object-fit: contain"/>
+							                <div class="carousel-caption">
+		    									<h3 class="imgcaptionheading">this is the heading for this image</h3>
+		    									<p class="imgcaptiondetail">this is the defualt image carousel caption, that i am trying to implement</p>
+							            	</div>					                
+							            </article>						           
+					        		</div>	 <!--Wrapper for slides-->        
+					        		<a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+					            		<span ><i class="fa fa-chevron-circle-left" style="padding-top:200%;"></i></span>
+					        		</a>
+					        		<a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+					            		<span><i class="fa fa-chevron-circle-right" style="padding-top:200%;"></i></span>
+					        		</a><!--Controls-->
+					    		</div>
+					    
+					    
+					   			<ol class='carousel-indicators mCustomScrollbar'>
+					        		<li data-target='#carousel-custom' data-slide-to='0' class='active'><img src='images/1ct.jpg' alt='' /></li>
+					        		<li data-target='#carousel-custom' data-slide-to='1'><img src='images/2ct.jpg' alt='' /></li>
+					        		<li data-target='#carousel-custom' data-slide-to='2'><img src='images/3ct.jpeg' alt='' /></li>
+					        		<li data-target='#carousel-custom' data-slide-to='3'><img src='images/4ct.jpg' alt='' /></li>					        
+					    		</ol><!-- Indicators -->
+							</section> 
+
+							<!--<div ng-controller="CarouselDemoCtrl">
+							  <div style="height: 305px">
+							    <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
+							      <uib-slide ng-repeat="slide in slides" active="slide.active" index="slide.id">
+							        <img ng-src="{{slide.image}}" style="margin:auto;">
+							        <div class="carousel-caption">
+							          <h4>Slide {{slide.id}}</h4>
+							          <p>{{slide.text}}</p>
+							        </div>
+							      </uib-slide>
+							    </uib-carousel>
+							  </div>
+							</div>-->
+							
+
+
+						</div>
+					</section>
+				</div>
+
+				<div class= " col-xs-12 col-md-4 " style="padding-left:15px;"  >
+					<div class="panel panel-default">
+      					<div class="panel-heading" style="background-color: #3B4C56;color:white;">Most popular news</div>
+      					<section class="panel-body" style="background-color:#EBEBEB;">
+      						<section class="panel panel-default">
+      							<article class="panel-body">freedom 251 server crashes</article>
+    						</section>
+    						<section class="panel panel-default">
+      							<article class="panel-body">now indian youths know how hard is to get Freedom</article>
+    						</section>
+    						<section class="panel panel-default">
+      							<article class="panel-body">google might close its picasa </article>
+    						</section>
+    						<section class="panel panel-default">
+      							<article class="panel-body">and some other newss</article>
+    						</section>
+      					</section>
+    				</div>
+				</div>
+
+				<section class="col-md-12">
+					<ul class="nav nav-tabs">
+
+    					<li class="active"><a href="#" style="background-color:#EBEBEB;"><strong>Hot stuff</strong></a></li>
+   						<li class="pull-right"> <i class="fa fa-caret-square-o-right" style="background-color:#EBEBEB;margin-top:25px;font-size:20px;"></i> </li>
+   						<li class="pull-right"> <i class="fa fa-caret-square-o-left" style="background-color:#EBEBEB;margin-top:25px;font-size:20px;"></i> </li>				
+					</ul>
+
+						<div class="row">
+							<section class="col-xs-6 col-md-3">
+							    <article class="thumbnail" style="padding-bottom:15px;padding-top:30px;">
+							    	<figure>
+							    		<img src="images/2_tn.jpg" alt="Pulpit Rock" style="height: 100%; width: 100%; object-fit: contain"> 
+							    	
+								    	 <figcaption>
+								    	 	<span class="glyphicon glyphicon-envelope " id="customglyph1"></span><p style="padding-top:5px;">desc<br><hr style="margin-bottom:0px;"><span style="float:left;">feb 19,2016 </span><span style="float:right;">
+
+								    	 	<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+								    	 	
+								    	 	<!--<div ng-controller="RatingDemoCtrl">
+	    
+										    	<1<uib-rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+										    	<span class="label" ng-class="{'label-warning': percent<30, 'label-info': percent>=30 && percent<70, 'label-success': percent>=70}" ng-show="overStar && !isReadonly">{{percent}}%</span>								 
+											</div> trying angular Rating-->
+								    		</span></p>
+								    	</figcaption>
+							    	</figure>
+							    </article>  
+							</section>
+
+							<section class="col-xs-6 col-md-3">
+							    <article class="thumbnail" style="padding-bottom:15px;padding-top:30px;">
+							    	<figure>
+							    		<img src="images/3_tn.jpeg" alt="Pulpit Rock" style="height: 100%; width: 100%; object-fit: contain">
+							    	 	<figcaption>
+							    	 		<span class="glyphicon glyphicon-envelope" id="customglyph2"></span><p style="padding-top:5px;">desc<br><hr style="margin-bottom:0px;"><span style="float:left;">feb 19,2016 </span><span style="float:right;">
+
+							    	 		<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+							    			<!--<div ng-controller="RatingDemoCtrl">
+    
+									   			 <uib-rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+									    		<span class="label" ng-class="{'label-warning': percent<30, 'label-info': percent>=30 && percent<70, 'label-success': percent>=70}" ng-show="overStar && !isReadonly">{{percent}}%</span>								 
+											</div> trying angular Rating-->
+							    	  		</span></p>
+							    	  	</figcaption>
+							    	</figure>
+							    </article>
+							</section>
+
+							<section class="col-xs-6 col-md-3">
+							    <article class="thumbnail" style="padding-bottom:15px;padding-top:30px;">
+							    	<figure>
+							    		<img src="images/3_tn.jpeg" alt="Pulpit Rock" style="height: 100%; width: 100%; object-fit: contain">
+							    	 	<figcaption>
+							    	 		<span class="glyphicon glyphicon-envelope" id="customglyph3"></span><p style="padding-top:5px;">desc<br><hr style="margin-bottom:0px;"><span style="float:left;">feb 19,2016 </span><span style="float:right;">
+							    	 		<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+							    			<!--<div ng-controller="RatingDemoCtrl">
+    
+									   			 <uib-rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+									    		<span class="label" ng-class="{'label-warning': percent<30, 'label-info': percent>=30 && percent<70, 'label-success': percent>=70}" ng-show="overStar && !isReadonly">{{percent}}%</span>								 
+											</div> trying angular Rating-->
+							    	  		</span></p>
+							    	  	</figcaption>
+							    	</figure>
+							    </article>
+							</section>
+
+							<section class="col-xs-6 col-md-3">
+							    <article class="thumbnail" style="padding-bottom:15px;padding-top:30px;">
+							    	<figure>
+							    		<img src="images/2_tn.jpg" alt="Pulpit Rock" style="height: 100%; width: 100%; object-fit: contain"> 
+							    	
+								    	 <figcaption>
+								    	 	<span class="glyphicon glyphicon-envelope" id="customglyph4" ></span><p style="padding-top:5px;">desc<br><hr style="margin-bottom:0px;"><span style="float:left;">feb 19,2016 </span><span style="float:right;">
+								    	 	<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+								    	 	<!--<div ng-controller="RatingDemoCtrl">
+	    
+										    	<uib-rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+										    	<span class="label" ng-class="{'label-warning': percent<30, 'label-info': percent>=30 && percent<70, 'label-success': percent>=70}" ng-show="overStar && !isReadonly">{{percent}}%</span>								 
+											</div> trying angular Rating-->
+								    		</span></p>
+								    	</figcaption>
+							    	</figure>
+							    </article>  
+							</section>
+						</div>
+				</section>
+		</section>
+
+		<aside class="col-xs-12 col-md-4 " style="padding-top:20px;">
+				<div class="row">
+					<section class="panel panel-default">
+	      				<section class="panel-heading" style="background-color:#3C4A53; padding:0px;height:40px;">
+	      					<ul class="nav nav-pills">
+	    					  <li class="active col-xs-4 navpilcol" id="populartab" style="background-color: #7FB74C; padding-bottom:0px;"><a href="#"><span style="color:white"><i class="fa fa-heart"></i></span> Popular</a></li>
+	    					  <li class="col-xs-4 recentclass navpilcol"><a href="#" style="color:white"><i class="fa fa-clock-o"></i> Recent</a></li>
+	    					  <li class="col-xs-4 navpilcol"  style="margin-left:0px;padding:0px;"><a href="#" style="padding-left:0px;padding-right:0px;color:white"><i class="fa fa-commenting-o"></i> Comment</a></li>
+	  						</ul> 
+	  					</section>
+	      				<section class="panel-body " style="background-color:#EBEBEB;">
+	      						<div class="panel panel-default">
+	      							<article class="panel-body">
+										<figure>
+											<img src="images/3.jpeg" alt="img and desc" class="img-rounded" width="50" height="50" style="float:left;margin-right:5px;"/>  
+											<figcaption>something for the pic</figcaption>
+										</figure>  										
+									</article>
+								</div>    						
+	    						<div class="panel panel-default">
+	      							<article class="panel-body">
+										<figure>
+											<img src="images/4.jpg" alt="img and desc" class="img-rounded" width="50" height="50" style="float:left;margin-right:5px;"/>   
+											<figcaption>something for the pic</figcaption>
+										</figure> 								
+	    							</article>
+	    						</div>
+	    						<div class="panel panel-default">
+	      							<article class="panel-body">
+	      								<figure>
+	      									<img src="images/3.jpeg" alt="img and desc" class="img-rounded" width="50" height="50" style="float:left;margin-right:5px;"/>  
+	      									<figcaption>something for the pic</figcaption>
+	      								</figure>  										  
+	    							</article>
+	      						</div>
+	      				</section>
+	      				<section class="panel-footer">
+	      						<span class="pull-right">
+	   								<i class="fa fa-caret-square-o-left" style="background-color:#EBEBEB;font-size:20px;"></i>
+	   								<i class="fa fa-caret-square-o-right" style="background-color:#EBEBEB;font-size:20px;"></i>
+	   							</span>
+	   					</section>
+	    			</section>
+	    		</div>
+
+    			<section class="col-md-12 col-xs-12">
+    					<ul class="nav nav-tabs">
+    						<li class="active"><a href="#" style="background-color:#EBEBEB;"><strong>Recent Post</strong></a></li>				
+						</ul>
+						<div class="thumbnail">
+							<div class="panel">
+								<article class="panel-body" style="padding-top:0px;padding-bottom:0px;height:110px;">
+							    	<div class="imgholder">
+							    		<img src="images/2_tn.jpg" alt="Pulpit Rock" width="100%" height="100%"style="object-fit: contain">
+							    	</div>
+							    	<div class="imgdesc">
+							    		<strong> heading </strong>
+							    		<p> 24th feb,2015 </p>
+							    		<p><span >
+							    			<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+							    		<!--<div ng-controller="RatingDemoCtrl">
+    
+									    	<uib-rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+									    	<span class="label" ng-class="{'label-warning': percent<30, 'label-info': percent>=30 && percent<70, 'label-success': percent>=70}" ng-show="overStar && !isReadonly">{{percent}}%</span>								 
+
+										</div> trying angular Rating-->	
+
+
+							    		 </span> </p>
+							    	</div>
+								</article>	<hr class="nomarginhr">
+
+								<article class="panel-body" style="padding-top:0px;padding-bottom:0px;height:110px;clear:both;">
+							    	<div class="imgholder">
+							    		<img src="images/3_tn.jpeg" alt="Pulpit Rock" width="100%" height="100%"style="object-fit: contain">
+							    	</div>
+							    	<div class="imgdesc">
+							    		<strong> heading </strong>
+							    		<p> 24th feb,2015 </p>
+							    		<p> <span >
+							    			<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+							    		<!--<div ng-controller="RatingDemoCtrl">
+    
+									    	<uib-rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+									    	<span class="label" ng-class="{'label-warning': percent<30, 'label-info': percent>=30 && percent<70, 'label-success': percent>=70}" ng-show="overStar && !isReadonly">{{percent}}%</span>								 
+
+										</div> trying angular Rating-->
+
+
+
+
+							    		</span> </p>
+							    	</div>
+								</article>	<hr class="nomarginhr">
+
+								<article class="panel-body" style="padding-top:0px;padding-bottom:0px;height:110px;clear:both;">
+							    	<div class="imgholder">
+							    		<img src="images/3_tn.jpeg" alt="Pulpit Rock" width="100%" height="100%"style="object-fit: contain">
+							    	</div>
+							    	<div class="imgdesc">
+							    		<strong> heading </strong>
+							    		<p> 24th feb,2015 </p>
+							    		<p> <span >
+							    			<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+							    			<!--<div ng-controller="RatingDemoCtrl">
+    
+									    		<uib-rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+									    		<span class="label" ng-class="{'label-warning': percent<30, 'label-info': percent>=30 && percent<70, 'label-success': percent>=70}" ng-show="overStar && !isReadonly">{{percent}}%</span>								 
+											</div> trying angular Rating-->
+
+
+
+
+							    		 </span> </p>
+							    	</div>
+								</article>	<hr class="nomarginhr">
+							</div>
+    					</div>
+				</section> 
+		</aside>
+		
+		<footer class="col-md-12 ">
+			
+					<section class="col-md-4 col-xs-12">
+						<ul class="nav nav-tabs">
+    						<li class="active"><a href="#" style="background-color:#EBEBEB;"><strong>gen news</strong></a></li>				
+						</ul>
+						<article class="thumbnail" style="padding-bottom:15px;">
+							<figure>
+							    <img src="images/3_tn.jpeg" alt="Pulpit Rock" style=" width:100%; object-fit: contain">
+							    <span style="float:left;"><strong>some heading</strong> </span><span style="float:right;"> july 21, 2015</span>
+							    <hr>
+							    <figcaption>
+							   	 <p> any breief decription for this image would be nice and attractive</p>
+								</figcaption>
+							</figure>
+						</article>
+					</section>
+
+					<section class="col-md-4 col-xs-12">
+						<ul class="nav nav-tabs">
+    						<li class="active"><a href="#" style="background-color:#EBEBEB;"><strong>sports news</strong></a></li>			
+						</ul>
+						<article class="thumbnail" style="padding-bottom:15px;">
+							    <figure>
+							    	<img src="images/2_tn.jpg" alt="Pulpit Rock" style="width:100%; object-fit: contain">
+							    	<span style="float:left;"><strong>some heading</strong> </span><span style="float:right;"> july 21, 2015</span>
+							    	<hr>
+ 									<figcaption>
+							    	<p> any breief decription for this image would be nice and attractive</p>
+							    	</figcaption>
+							    </figure>
+
+						</article>
+					</section>
+
+					<section class="col-md-4 col-xs-12">
+						<ul class="nav nav-tabs">
+	    					<li class="active"><a href="#" style="background-color:#EBEBEB;"><strong>tech news</strong></a></li>				
+						</ul>
+						<article class="thumbnail" style="padding-bottom:15px;">
+							    <figure>
+							    	<img src="images/3_tn.jpeg" alt="Pulpit Rock" style="width:100%; object-fit: contain">
+							    	<span style="float:left;"><strong>some heading</strong> </span><span style="float:right;"> july 21, 2015</span>
+							    	<hr>
+							    	<figcaption>
+							    		<p> any breief decription for this image would be nice and attractive</p>
+							    	</figcaption>
+							    </figure>
+						</article>
+					</section>
+		</footer>
+		
+			
+	</div>
+		
+		<script src="js/bootstrap.min.js"> </script>
+ 	</body>
+</html>
+
+
